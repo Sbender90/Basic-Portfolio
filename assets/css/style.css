@@ -1,0 +1,58 @@
+body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	width: 960px;
+	margin-right: 270px;
+	margin-left: 270px;	 
+	background-image: url("D:Google Drive/Project1/Basic-Portfolio/assets/images/background.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.ContentArea {
+	background-color: #ffffff;
+}
+#myPic {
+	float: left;
+	margin-right: 15px;
+}
+
+#header {
+	background-color: #4aaaa5;
+	height: 50px;
+	margin-top: 0 auto;
+	width: 200px;
+}
+
+#footer {
+	background-color: #666666;
+	height: 50px;
+	widows: 100%;
+	text-align: center;
+	padding-bottom: 50px;
+
+}
+
+#Connect {
+	background-color: #ffffff;
+	width: 270px;
+	float: right;
+}
+
+#links {
+	float: right;
+}
+p {
+	margin-left: 15px;
+	margin-right: 15px;	
+
+}
+
+h1 { 
+	color: #ffffff;
+
+}
+
+h2 {
+	color: #4aaaa5;
+
+}
