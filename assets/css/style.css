@@ -1,7 +1,6 @@
 body {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	width: 960px;
-	margin-right: 270px;
 	margin-left: 270px;	 
 	background-image: url("D:Google Drive/Project1/Basic-Portfolio/assets/images/background.png");
 	background-size: cover;
@@ -9,11 +8,12 @@ body {
 
 }
 
-.ContentArea {
+.Container {
 	background-color: #ffffff;
-	margin-right: 25px;
-	margin-top: 0 auto;
-	width: 615px;
+	margin-right: -100px;
+	margin-top: 0;
+	width: 650px;
+	height: auto;
 	
 }
 #myPic {
@@ -24,61 +24,102 @@ body {
 #header {
 	background-color: #4aaaa5;
 	height: 50px;
-	margin-top: 0 auto;
+	margin-top: 0;
 	width: 200px;
+	position: relative
+}
+#myPic{
+	position: static;
+}
+#mainP {
+	background-color: #ffffff;
+	width: 400px;
+	height: 500px;
 }
 
-#footer {
+.footer {
 	background-color: #666666;
 	height: 50px;
-	widows: 100%;
+	width: 100%;
 	text-align: center;
 	padding-bottom: 50px;
+	
 
+
+}
+
+.Container2 {
+	background-color: #ffffff;
+	float: right;
+	width: 270px;
+	height: 270px;
+	margin-right: auto;
+	margin-left: 200px;
+	margin-bottom: 200px;
+	
+}
+
+#links {
+	background-color: #ffffff;
+	position: absolute;
+	width: 270px;
+	text-align: center;
+	padding: auto;
+
+	
 }
 
 #Connect {
 	background-color: #ffffff;
 	width: 270px;
-	float: right;
-	position: relative;
+	
+	position: absolute;
+
 	
 }
 
-#links {
-	float: right;
-	position: relative;
+#contact {
+	float: left;
+	background-color: #ffffff;
+	margin-right: 25px;
+	margin-top: 0 auto;
+	width: 650px;
+	
 }
+
 
 .Big-box {
 	position: static;
 }
 
 #Box1 {
-	position: absolute;
+	position: relative;
 	float: left;
 	margin: 25px 25px 25px 25px;
 }
 
 #Box2 {
-	position: absolute;
+	position: relative;
 	float: left;
-	margin: 0px 100px 100px 250px;
+	margin: 25px 25px 25px 25px;
 }
 
 #Box3 {
-	position: absolute;
+	position: relative;
 	float: left;
+	margin: 25px 25px 25px 25px;	
 }
 
 #Box4 {
-	position: absolute;
+	position: relative;
 	float: left;
+	margin: 25px 25px 25px 25px;	
 }
 
 #Box5 {
-	position: absolute;
+	position: relative;
 	float: left;
+	margin: 25px 25px 25px 25px;	
 }
 
 .clearfix::after {
@@ -87,10 +128,56 @@ body {
     display: grid;
 }
 
+.namebox1 {
+	position: absolute;
+	background-color: #4aaaa5;
+	height: 50px;
+	width: 200px;
+	text-align: center;
+	margin-right: -50px;
+	margin-top: 100px;
+
+}
+.namebox2 {
+	position: absolute;
+	background-color: #4aaaa5;
+	height: 50px;
+	width: 200px;
+	text-align: center;
+
+}
+.namebox3 {
+	position: absolute;
+	background-color: #4aaaa5;
+
+	height: 50px;
+	width: 200px;
+	text-align: center;
+	
+}
+.namebox4 {
+	position: absolute;
+	background-color: #4aaaa5;
+
+	height: 50px;
+	width: 200px;
+	text-align: center;
+	
+}
+.namebox5 {
+	position: absolute;
+	background-color: #4aaaa5;
+
+	height: 50px;
+	width: 200px;
+	text-align: center;
+	
+}
 
 p {
 	margin-left: 15px;
 	margin-right: 15px;	
+	float: left;
 
 }
 
