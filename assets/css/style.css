@@ -10,10 +10,9 @@ body {
 
 .Container {
 	background-color: #ffffff;
-	margin-right: -100px;
-	margin-top: 0;
+	margin-right: 0px;
 	width: 650px;
-	height: auto;
+	height: 35px;
 	
 }
 #myPic {
@@ -24,17 +23,20 @@ body {
 #header {
 	background-color: #4aaaa5;
 	height: 50px;
-	margin-top: 0;
+	margin-top: 0 auto;
 	width: 200px;
 	position: relative
 }
 #myPic{
-	position: static;
+	
+	float: left;
+	margin-right: 20px;
 }
 #mainP {
 	background-color: #ffffff;
-	width: 400px;
+	width: 500px;
 	height: 500px;
+	margin-right: -200px;
 }
 
 .footer {
@@ -43,6 +45,7 @@ body {
 	width: 100%;
 	text-align: center;
 	padding-bottom: 50px;
+	margin-top: 325px;
 	
 
 
@@ -52,19 +55,20 @@ body {
 	background-color: #ffffff;
 	float: right;
 	width: 270px;
-	height: 270px;
-	margin-right: auto;
-	margin-left: 200px;
-	margin-bottom: 200px;
+	height: 100px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
 	
 }
 
 #links {
 	background-color: #ffffff;
 	position: absolute;
-	width: 270px;
+	width: 200px;
 	text-align: center;
-	padding: auto;
+	float: right;	
+	margin-left: 435px;
 
 	
 }
@@ -72,9 +76,8 @@ body {
 #Connect {
 	background-color: #ffffff;
 	width: 270px;
+	float: right;
 	
-	position: absolute;
-
 	
 }
 
@@ -85,11 +88,6 @@ body {
 	margin-top: 0 auto;
 	width: 650px;
 	
-}
-
-
-.Big-box {
-	position: static;
 }
 
 #Box1 {
@@ -174,10 +172,16 @@ body {
 	
 }
 
+button {
+	background-color: #4aaaa5;
+	height: 25px;
+	width: 80px;	
+}
+
 p {
-	margin-left: 15px;
+	margin-left: 25px;
 	margin-right: 15px;	
-	float: left;
+	
 
 }
 
@@ -190,3 +194,11 @@ h2 {
 	color: #4aaaa5;
 
 }
+
+textarea {
+	size: 
+}
+ 
+ h1 h2 h3 h4 h5 h6 {
+ 	font-family: 'Georgia', Times, Times New Roman, serif;
+ }
